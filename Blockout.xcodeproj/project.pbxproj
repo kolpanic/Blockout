@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB6F39E114910C0C00F81881 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6F39E014910C0C00F81881 /* Cocoa.framework */; };
+		CB6F39EB14910C0C00F81881 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB6F39E914910C0C00F81881 /* InfoPlist.strings */; };
+		CB6F39ED14910C0C00F81881 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F39EC14910C0C00F81881 /* main.m */; };
+		CB6F39F114910C0C00F81881 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CB6F39EF14910C0C00F81881 /* Credits.rtf */; };
+		CB6F39F414910C0C00F81881 /* VEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F39F314910C0C00F81881 /* VEAppDelegate.m */; };
+		CB6F39F714910C0C00F81881 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6F39F514910C0C00F81881 /* MainMenu.xib */; };
+		CB6F39FF14910C2200F81881 /* TimeBlockoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F39FE14910C2200F81881 /* TimeBlockoutView.m */; };
+		CB6F3A0114910C2E00F81881 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6F3A0014910C2D00F81881 /* Preferences.xib */; };
+		CB6F3A0314910C3900F81881 /* Blockout.icns in Resources */ = {isa = PBXBuildFile; fileRef = CB6F3A0214910C3900F81881 /* Blockout.icns */; };
+		CB6F3A0C14910C6C00F81881 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F3A0B14910C6C00F81881 /* PreferencesWindowController.m */; };
+		CB6F3A131491113200F81881 /* Definitions.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F3A121491113200F81881 /* Definitions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB6F39DC14910C0C00F81881 /* Blockout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blockout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6F39E014910C0C00F81881 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CB6F39E314910C0C00F81881 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CB6F39E414910C0C00F81881 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CB6F39E514910C0C00F81881 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB6F39E814910C0C00F81881 /* Blockout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Blockout-Info.plist"; sourceTree = "<group>"; };
+		CB6F39EA14910C0C00F81881 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB6F39EC14910C0C00F81881 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB6F39EE14910C0C00F81881 /* Blockout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Blockout-Prefix.pch"; sourceTree = "<group>"; };
+		CB6F39F014910C0C00F81881 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CB6F39F214910C0C00F81881 /* VEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VEAppDelegate.h; sourceTree = "<group>"; };
+		CB6F39F314910C0C00F81881 /* VEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VEAppDelegate.m; sourceTree = "<group>"; };
+		CB6F39F614910C0C00F81881 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CB6F39FD14910C2200F81881 /* TimeBlockoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeBlockoutView.h; sourceTree = "<group>"; };
+		CB6F39FE14910C2200F81881 /* TimeBlockoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeBlockoutView.m; sourceTree = "<group>"; };
+		CB6F3A0014910C2D00F81881 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		CB6F3A0214910C3900F81881 /* Blockout.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Blockout.icns; sourceTree = "<group>"; };
+		CB6F3A0A14910C6C00F81881 /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
+		CB6F3A0B14910C6C00F81881 /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
+		CB6F3A111491113200F81881 /* Definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Definitions.h; sourceTree = "<group>"; };
+		CB6F3A121491113200F81881 /* Definitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Definitions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB6F39D914910C0C00F81881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6F39E114910C0C00F81881 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB6F39D114910C0B00F81881 = {
+			isa = PBXGroup;
+			children = (
+				CB6F39E614910C0C00F81881 /* Blockout */,
+				CB6F39DF14910C0C00F81881 /* Frameworks */,
+				CB6F39DD14910C0C00F81881 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB6F39DD14910C0C00F81881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F39DC14910C0C00F81881 /* Blockout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB6F39DF14910C0C00F81881 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F39E014910C0C00F81881 /* Cocoa.framework */,
+				CB6F39E214910C0C00F81881 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB6F39E214910C0C00F81881 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F39E314910C0C00F81881 /* AppKit.framework */,
+				CB6F39E414910C0C00F81881 /* CoreData.framework */,
+				CB6F39E514910C0C00F81881 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CB6F39E614910C0C00F81881 /* Blockout */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F39F214910C0C00F81881 /* VEAppDelegate.h */,
+				CB6F39F314910C0C00F81881 /* VEAppDelegate.m */,
+				CB6F3A111491113200F81881 /* Definitions.h */,
+				CB6F3A121491113200F81881 /* Definitions.m */,
+				CB6F39FD14910C2200F81881 /* TimeBlockoutView.h */,
+				CB6F39FE14910C2200F81881 /* TimeBlockoutView.m */,
+				CB6F3A0A14910C6C00F81881 /* PreferencesWindowController.h */,
+				CB6F3A0B14910C6C00F81881 /* PreferencesWindowController.m */,
+				CB6F3A0014910C2D00F81881 /* Preferences.xib */,
+				CB6F39F514910C0C00F81881 /* MainMenu.xib */,
+				CB6F3A0214910C3900F81881 /* Blockout.icns */,
+				CB6F39E714910C0C00F81881 /* Supporting Files */,
+			);
+			path = Blockout;
+			sourceTree = "<group>";
+		};
+		CB6F39E714910C0C00F81881 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F39E814910C0C00F81881 /* Blockout-Info.plist */,
+				CB6F39E914910C0C00F81881 /* InfoPlist.strings */,
+				CB6F39EC14910C0C00F81881 /* main.m */,
+				CB6F39EE14910C0C00F81881 /* Blockout-Prefix.pch */,
+				CB6F39EF14910C0C00F81881 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB6F39DB14910C0C00F81881 /* Blockout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6F39FA14910C0C00F81881 /* Build configuration list for PBXNativeTarget "Blockout" */;
+			buildPhases = (
+				CB6F39D814910C0C00F81881 /* Sources */,
+				CB6F39D914910C0C00F81881 /* Frameworks */,
+				CB6F39DA14910C0C00F81881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blockout;
+			productName = Blockout;
+			productReference = CB6F39DC14910C0C00F81881 /* Blockout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB6F39D314910C0B00F81881 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Voodoo Ergonomics Inc.";
+			};
+			buildConfigurationList = CB6F39D614910C0B00F81881 /* Build configuration list for PBXProject "Blockout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB6F39D114910C0B00F81881;
+			productRefGroup = CB6F39DD14910C0C00F81881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB6F39DB14910C0C00F81881 /* Blockout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB6F39DA14910C0C00F81881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6F39EB14910C0C00F81881 /* InfoPlist.strings in Resources */,
+				CB6F39F114910C0C00F81881 /* Credits.rtf in Resources */,
+				CB6F39F714910C0C00F81881 /* MainMenu.xib in Resources */,
+				CB6F3A0114910C2E00F81881 /* Preferences.xib in Resources */,
+				CB6F3A0314910C3900F81881 /* Blockout.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB6F39D814910C0C00F81881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6F39ED14910C0C00F81881 /* main.m in Sources */,
+				CB6F39F414910C0C00F81881 /* VEAppDelegate.m in Sources */,
+				CB6F39FF14910C2200F81881 /* TimeBlockoutView.m in Sources */,
+				CB6F3A0C14910C6C00F81881 /* PreferencesWindowController.m in Sources */,
+				CB6F3A131491113200F81881 /* Definitions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB6F39E914910C0C00F81881 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6F39EA14910C0C00F81881 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB6F39EF14910C0C00F81881 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6F39F014910C0C00F81881 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CB6F39F514910C0C00F81881 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6F39F614910C0C00F81881 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB6F39F814910C0C00F81881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CB6F39F914910C0C00F81881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CB6F39FB14910C0C00F81881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blockout/Blockout-Prefix.pch";
+				INFOPLIST_FILE = "Blockout/Blockout-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = Blockout;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB6F39FC14910C0C00F81881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blockout/Blockout-Prefix.pch";
+				INFOPLIST_FILE = "Blockout/Blockout-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = Blockout;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB6F39D614910C0B00F81881 /* Build configuration list for PBXProject "Blockout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6F39F814910C0C00F81881 /* Debug */,
+				CB6F39F914910C0C00F81881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB6F39FA14910C0C00F81881 /* Build configuration list for PBXNativeTarget "Blockout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6F39FB14910C0C00F81881 /* Debug */,
+				CB6F39FC14910C0C00F81881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB6F39D314910C0B00F81881 /* Project object */;
+}
